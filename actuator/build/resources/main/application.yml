@@ -17,8 +17,16 @@ management:
       enabled: true
     os:
       enabled: true
+    env:
+      enabled: true
+  server:
+    port: 8081
 
 info:
   app:
     name: hello-actuator
     company: test
+
+logging:
+  level:
+    hello.controller: debug
